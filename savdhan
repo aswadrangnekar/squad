@@ -1,0 +1,18 @@
+sudo su
+apt-get install aptitude
+apt-get install lamp-server^
+apt-get install libapache2-mod-auth-mysql phpmyadmin
+aptitude install gnome-do gnome-do-plugins vlc
+
+aptitude install git-all
+apt-get install tig tree
+====
+git
+dropbox
+
+make puppy work
+make new build work
+
+synchronize code folder
+install delicious for chrome and firefox(delicious.com/aswadrangnekar == login with gmail account)
+
