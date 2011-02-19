@@ -1,15 +1,19 @@
 sudo su
 apt-get install aptitude
+
 apt-get install lamp-server^
 apt-get install libapache2-mod-auth-mysql phpmyadmin
-aptitude install gnome-do gnome-do-plugins vlc
 
 aptitude install git-all
 apt-get install tig tree
-====
-git
-dropbox
 
+#Installing editors
+aptitude install emacs
+
+aptitude install gnome-do gnome-do-plugins vlc
+
+
+====
 make puppy work
 make new build work
 
