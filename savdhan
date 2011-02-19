@@ -1,17 +1,9 @@
 sudo su
 apt-get install aptitude
 
-apt-get install lamp-server^
-apt-get install libapache2-mod-auth-mysql phpmyadmin
-
-aptitude install git-all
-apt-get install tig tree
-
 #Installing editors
 aptitude install emacs
-
 aptitude install gnome-do gnome-do-plugins vlc
-
 
 #make machine ready with pyhton 2.5 a app enging dependency(http://kovshenin.com/archives/installing-python-2-5-on-ubuntu-linux-10-10/)
 aptitude install python-setuptools babel curl squeeze python-cheetah optipng
@@ -21,9 +13,6 @@ pip install watchdog
 apt-get install python-setuptools python-dev build-essential python-pip libjpeg-progs
 #jpegtran requires libjpeg-progs installed
 
-add-apt-repository ppa:fkrull/deadsnakes
-apt-get update
-apt-get install python2.5 python2.5-dev
 
 #installing node.js
 #stp 1 : pull node from git-repo : git://github.com/ry/node.git
