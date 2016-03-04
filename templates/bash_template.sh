@@ -17,7 +17,7 @@ help(){
     exit 0;
 }
 
-run_pep8_check(){
+run_checks(){
     # RUN SOME CHECKS HERE
     echo -n "> Ran some checks!!"
 }
@@ -84,6 +84,6 @@ if [ $xyz -z something ]; then
 fi
 
 if [ $clean_containers -eq 1 ]; then
-    set_projectdir
+    run_container_cleaner
     exit $?
 fi
